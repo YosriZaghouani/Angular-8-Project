@@ -1,0 +1,65 @@
+<br/>
+<h3>Ajout d'un produit</h3>
+<hr>
+<div class="container">
+    <form [formGroup]="productForm" (ngSubmit)="onSubmitForm()">
+        <div class="form-group">
+            <label for="id">
+                Identifiant du produit
+            </label>
+            <input type="number" id="id" name="id"    class="form-control"  formControlName="id"  >
+        </div>
+
+
+      
+
+
+        <div class="form-group">
+            <label for="id">
+                Nom du Produit
+            </label>
+            <input type="text" id="nom" name="nom"   class="form-control"  formControlName="nom">
+        </div>
+
+
+
+
+        <div class="form-group">
+            <label for="id">
+                prix du produit
+            </label>
+            <input type="number" id="prix" name="prix"   class="form-control"  formControlName="prix">
+        </div>
+
+
+
+      
+
+        <div class="form-group">
+            <label for="id">
+                Image du produit
+            </label>
+            <input type="text" id="image" name="image"   class="form-control"  formControlName="image">
+        </div>
+
+
+
+
+        <div class="form-group">
+            <label for="id">
+                Disponibilite du Produit
+            </label>
+            <input type="text" id="disponible" name="disponible"   class="form-control"  formControlName="disponible">
+        </div>
+
+
+        <div class="form-group">
+            <label for="id">
+                Date du Produit
+            </label>
+            <input type="date" id="date" name="date"   class="form-control"  formControlName="date">
+        </div>
+        <button type="submit" class="btn btn-warning">Enregistrer</button>
+        <input type="reset" class="btn btn-danger" (click)="productForm.reset();submitted=false;" value="Vider"/>
+        
+        </form>

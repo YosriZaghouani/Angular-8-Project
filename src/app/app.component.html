@@ -1,0 +1,36 @@
+
+<!--Nav bar-->
+
+<nav class="navbar   navbar-expand-lg  container-fluid">
+            
+        <a class="navbar-brand text-warning" href="#" style="font-size: 30px;">Young&Fresh</a>
+      
+      
+        <div class="collapse navbar-collapse navbar-right">
+          <form class="form-inline ml-auto">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item active  ">
+              <a class="nav-link text-warning " [routerLink]="['/acceuil']" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" [routerLink]="['/aut']">Authentification</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link text-warning" [routerLink]="['/boutique']">Boutique</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" [routerLink]="['/ajouterproduit']">Ajouter Produit</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-warning" [routerLink]="['/modifier']">Modifer Produit</a>
+                  </li>
+                  
+                      
+      
+                      </ul>
+                    </form>
+        </div>
+      </nav>
+
+     
+<router-outlet></router-outlet>

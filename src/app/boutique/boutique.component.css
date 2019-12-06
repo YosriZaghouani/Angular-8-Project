@@ -1,0 +1,104 @@
+
+
+.card {
+   
+    position: relative;
+    display: inline-block;
+    
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+
+}
+
+
+.c1
+{
+background-image: url('/assets/images/item4.jpg') ;
+background-size: 100% 100%;
+}
+
+
+.c1:hover
+{
+background-image: url('/assets/images/ibck2.jpg') ;
+transition:1s;
+}
+
+.c2
+{
+background-image: url('/assets/images/bonnet.jpg') ;
+background-size: 100% 100%;
+}
+
+
+.c2:hover
+{
+background-image: url('/assets/images/bckbonnet.jpg') ;
+transition:1s;
+}
+
+.c3
+{
+background-image: url('/assets/images/item2.jpg') ;
+background-size: 100% 100%;
+}
+
+
+.c3:hover
+{
+background-image: url('/assets/images/ibck.jpg') ;
+transition:1s;
+}
+
+.c4
+{
+background-image: url('/assets/images/item6.jpg') ;
+background-size: 100% 100%;
+}
+
+
+.c4:hover
+{
+background-image: url('/assets/images/ibckgg.jpg') ;
+transition:1s;
+}
+
+.c5
+{
+background-image: url('/assets/images/bckg.jpg') ;
+background-size: 100% 100%;
+}
+
+
+.c5:hover
+{
+background-image: url('/assets/images/item.jpg') ;
+transition:1s;
+}
+
+.c6
+{
+background-image: url('/assets/images/item3.jpg') ;
+background-size: 100% 100%;
+}
+
+
+.c6:hover
+{
+background-image: url('/assets/images/ibck1.jpg') ;
+transition:1s;
+}
+*/
+
+
+    .navbar-nav a{
+  
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      
+      
+      

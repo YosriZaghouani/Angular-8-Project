@@ -1,0 +1,88 @@
+<div class="bag container-fluid" style="height: 100vh;padding:0;">
+
+
+
+
+<!-- Material form register -->
+<div class="d-flex justify-content-center ">
+  
+    <!--Card content-->
+  
+  
+      <!-- Form -->
+      <form class="text-center" style="color: #757575;">
+  
+        <div class="form-row">
+          <div class="col">
+            <!-- First name -->
+            <div class="md-form">
+                <label for="materialRegisterFormFirstName" class="c1">First name</label>
+              <input type="text"  class="form-control " >
+     
+            </div>
+          </div>
+          <div class="col">
+            <!-- Last name -->
+            <div class="md-form">
+                <label for="materialRegisterFormLastName" class="c1">Last name</label>
+              <input type="email" id="materialRegisterFormLastName" class="form-control" >
+
+            </div>
+          </div>
+        </div>
+  
+        <!-- E-mail -->
+        <div class="md-form mt-0">
+            <label for="materialRegisterFormEmail" class="c1" >E-mail</label>
+          <input type="email" id="materialRegisterFormEmail" class="form-control" placeholder="" >
+          
+        </div>
+  
+        <!-- Password -->
+        <div class="md-form">
+            <label for="materialRegisterFormPassword" class="c1">Password</label>
+          <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock"  >
+       
+          <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4 c1" style="color:black">
+            At least 8 characters (Required)
+          </small>
+        </div>
+  
+        <!-- Phone number -->
+        <div class="md-form">
+            <label for="materialRegisterFormPhone" class="c1">Phone number</label>
+          <input type="text" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock"
+            >
+         
+          <small id="materialRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4 c1">
+            for two-step authentication(Optional)
+          </small>
+        </div>
+  
+    
+  
+        <!-- Sign up button -->
+        <button class="btn btn-dark" [routerLink]="['/boutique']">Sign in</button>
+  
+        <!-- Social register -->
+        <p>or sign up with:</p>
+  
+      
+  
+        <hr>
+  
+        <!-- Terms of service -->
+        <p>By clicking</p>
+        
+          <em>Sign up</em> you agree to our<br>
+          <i class="fab fa-facebook"></i>         
+          <i class="fab fa-instagram"   style="margin-left: 10px;"></i>
+          <i class="fab fa-twitter" style="margin-left: 10px;"></i>
+          
+      </form>
+      <!-- Form -->
+  
+    </div>
+  
+  </div>  
+  <!-- Material form register -->

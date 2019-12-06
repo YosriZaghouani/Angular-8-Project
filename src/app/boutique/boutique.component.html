@@ -1,0 +1,26 @@
+<div class="body">
+<div class="card-deck " style="margin-top: 70px;">
+        <div class="card " class="col-md-4" *ngFor="let t of produit">
+            <div  class="c1 c2 c3 c4 c5 c6">
+              <img [src]="t.image" width="506px" height="650px"></div>
+     
+        <div class="card-body border ">
+        <h5 class="card-title">{{t.nom}}</h5>
+        <p class="card-text"><p style="font-weight: bold ;" >{{t.prix | currency}}</p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" [routerLink]="['/detail',t.id,t.nom,t.prix]">
+            Description
+            </button>
+        </div>
+        <div class="card-footer" *ngIf="t.disponible==true; else elseBlock">
+        <small class="text-muted">En Stock</small>   <i class="far fa-check-circle"></i>
+        </div>
+        <ng-template #elseBlock>
+            <small class="text-muted">Hors Stock</small>   <i class="far fa-times-circle"></i>
+        </ng-template>
+
+
+
+        </div><br><br>
+        </div>
+        </div>
+        
